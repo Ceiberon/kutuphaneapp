@@ -3,9 +3,9 @@
 Bu proje, Patika+ Frontend Web Developer Programı kapsamında geliştirilmiş bir **Kütüphane Uygulaması**dır. Projede kullanıcılar kitap, yazar, yayımlayan, kategori bilgilerini yönetebilir ve kitap alma işlemlerini gerçekleştirebilirler. Proje, frontend kısmında React ve çeşitli teknolojilerle geliştirilmiştir.
 
 
-## Canlı link
+## Proje linkleri
 
-- https://66f5eb133c30e06a17339207--starlit-gaufre-6b1975.netlify.app
+-  Canlı link https://66f5eb133c30e06a17339207--starlit-gaufre-6b1975.netlify.app
 - Backend github linki https://github.com/Ceiberon/LibAppBe
 
 
