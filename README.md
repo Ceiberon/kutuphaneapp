@@ -22,7 +22,7 @@ Bu proje, Patika+ Frontend Web Developer Programı kapsamında geliştirilmiş b
 
 - **React**
 - **React Router**
-- **Tailwind CSS** (veya tercih ettiğiniz CSS framework)
+- **Tailwind CSS** 
 - **Backend API** ile entegre çalışma
 
 ## Sayfa Yapısı
