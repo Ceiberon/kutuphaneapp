@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Kütüphane Uygulaması (Capstone Projesi)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, Patika+ Frontend Web Developer Programı kapsamında geliştirilmiş bir **Kütüphane Uygulaması**dır. Projede kullanıcılar kitap, yazar, yayımlayan, kategori bilgilerini yönetebilir ve kitap alma işlemlerini gerçekleştirebilirler. Proje, frontend kısmında React ve çeşitli teknolojilerle geliştirilmiştir.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Canlı link
 
-### `npm start`
+- https://66f5eb133c30e06a17339207--starlit-gaufre-6b1975.netlify.app
+- Backend github linki https://github.com/Ceiberon/LibAppBe
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Proje Özellikleri
 
-### `npm test`
+- **React Router** ile Single Page Application (SPA) mimarisi
+- CRUD operasyonları (Ekleme, Güncelleme, Okuma, Silme)
+- CRUD işlemlerinde hata durumlarında kullanıcıya modal ile bilgilendirme
+- 1200px genişliğinde layout (Responsive değil)
+- Backend ve veritabanı ile entegrasyon
+- **Yayımlayan**, **Kategori**, **Kitap**, **Yazar**, **Kitap Alma** sayfaları için CRUD işlemleri
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Kullanılan Teknolojiler
 
-### `npm run build`
+- **React**
+- **React Router**
+- **Tailwind CSS** (veya tercih ettiğiniz CSS framework)
+- **Backend API** ile entegre çalışma
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Sayfa Yapısı
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Giriş Sayfası**: Kullanıcıları karşılayan ana sayfa.
+2. **Yayımcı Sayfası**: Yayımlayan bilgilerini yönetmek için CRUD işlemleri.
+3. **Kategori Sayfası**: Kitap kategorilerini yönetmek için CRUD işlemleri.
+4. **Kitap Sayfası**: Kitap bilgilerini yönetmek için CRUD işlemleri.
+5. **Yazar Sayfası**: Yazar bilgilerini yönetmek için CRUD işlemleri.
+6. **Kitap Alma Sayfası**: Kullanıcılar, kitap alma işlemlerini buradan yönetebilir.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Kurulum
 
-### `npm run eject`
+Projeyi yerel ortamda çalıştırmak için aşağıdaki adımları izleyin:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Projeyi klonlayın:
+   ```bash
+   git clone https://github.com/kullanici_adi/kutuphane-uygulamasi.git
+   cd kutuphane-uygulamasi
