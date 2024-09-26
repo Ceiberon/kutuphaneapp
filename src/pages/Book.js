@@ -16,7 +16,7 @@ const Book = () => {
 
   useEffect(() => {
     // Kitapları yükle
-    fetch(`${apiUrl}/books`)
+    fetch(`${apiUrl}/api/v1/books`)
       .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
@@ -28,7 +28,7 @@ const Book = () => {
       .catch(error => console.error('Error fetching books:', error));
 
     // Yazarları yükle
-    fetch(`${apiUrl}/authors`)
+    fetch(`${apiUrl}/api/v1/authors`)
       .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.json();
@@ -42,7 +42,7 @@ const Book = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = editData ? `${apiUrl}/books/${editData.id}` : `${apiUrl}/books`;
+    const url = editData ? `${apiUrl}/api/v1/books/${editData.id}` : `${apiUrl}/api/v1/books`;
     const method = editData ? 'PUT' : 'POST';
 
     fetch(url, {
@@ -84,7 +84,7 @@ const Book = () => {
   };
 
   const handleDelete = (id) => {
-    fetch(`${apiUrl}/books/${id}`, { method: 'DELETE' })
+    fetch(`${apiUrl}/api/v1/books/${id}`, { method: 'DELETE' })
       .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         setBooks(books.filter(b => b.id !== id));
