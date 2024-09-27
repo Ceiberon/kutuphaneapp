@@ -5,7 +5,7 @@ Bu proje, Patika+ Frontend Web Developer Programı kapsamında geliştirilmiş b
 
 ## Proje linkleri
 
--  Canlı link https://66f5eb133c30e06a17339207--starlit-gaufre-6b1975.netlify.app
+-  Canlı link https://deluxe-paletas-df9ae8.netlify.app
 - Backend github linki https://github.com/Ceiberon/LibAppBe
 
 
